@@ -1,0 +1,24 @@
+{
+  "name": "aywa-api",
+  "version": "0.0.1",
+  "description": "AYWA project API",
+  "author": "Pavel Vladimiroff / pavit.design",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "license": "UNLICENSED",
+  "private": "true",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cross-fetch": "^3.1.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.2",
+    "mongoose-timestamp": "^0.6.0",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.16",
+    "restify": "^8.6.1",
+    "restify-jwt-community": "^1.1.26"
+  }
+}
